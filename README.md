@@ -24,7 +24,7 @@ If you are already logged in just refreshing the browser should trigger your Moo
 If not then navigate to Administration > Notifications.
 
 ## Configuration
-To configure calendar type please go to the the calendar configuration page Site administration > Appearance > Calendar >  
+To configure calendar type please go to the the calendar configuration page Site administration > Appearance > Calendar  
 and select 'Ummul Qora' as a default calendar from 'calendartype' field.
 
 ## Note
