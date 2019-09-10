@@ -33,8 +33,6 @@ use hijri\Calendar;
 require_once('hijri.class.php');
 
 defined('MOODLE_INTERNAL') || die();
-define('calendartype_ummulqora_ALGORITHM_A', 0);
-define('calendartype_ummulqora_ALGORITHM_B', 1);
 
 /**
  * Handles calendar functions for the ummulqora calendar.
@@ -416,8 +414,7 @@ class structure extends type_base {
      * @return array the converted date
      */
     public function convert_to_gregorian($year, $month, $day, $hour = 0, $minute = 0) {
-        return (new Calendar())->HijriToGregorian($year, $month, $day);
-
+        return (new Calendar())->HijriToGregorian($year, $month, $day, $hour, $minute);
     }
 
     /**

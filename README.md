@@ -45,5 +45,9 @@ made by [hubaishan](https://github.com/hubaishan) with some tiny changes to the 
  to fit the moodle calendar type requirements.
 
 
+## Release logs
+
+### Version 2019090800
+Enhance `HijriToGregorian` function and cleanup the code.
 
 

@@ -604,10 +604,10 @@ class Calendar {
      *            the Hijri day
      * @return array An array contains Gregorian Date: 'year' key for year,'month' key for month,'day' key for day
      */
-    public function HijriToGregorian($year, $month, $day) {
-        $j = $this->HijriToJD($month, $day, $year);
+    public function HijriToGregorian($year, $month, $day, $hour = 0, $minute = 0) {
+        $j = $this->HijriToJD($month, $day, $year, $hour = 0, $minute = 0);
         list($m, $d, $y) = explode('/', jdtogregorian($j));
-        return array('year' => $y, 'month' => $m, 'day' => $d);
+        return array('year' => $y, 'month' => $m, 'day' => $d, 'hour' => $hour, 'minute' => $minute);
     }
 
     /**

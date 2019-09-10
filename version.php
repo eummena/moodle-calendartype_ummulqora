@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2019042300;
+$plugin->version = 2019090800;
 $plugin->requires = 2013111801;
 $plugin->component = 'calendartype_ummulqora';
-$plugin->release = '1.0 (Build: 20190318)';
+$plugin->release = 'v3.5';
 $plugin->dependencies = array('calendartype_gregorian' => ANY_VERSION);
 $plugin->maturity = MATURITY_STABLE;
