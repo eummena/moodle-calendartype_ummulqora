@@ -24,25 +24,17 @@ If you are already logged in just refreshing the browser should trigger your Moo
 If not then navigate to Administration > Notifications.
 
 ## Configuration
-To configure calendar type please go to the the calendar configuration page Site administration > Appearance > Calendar >  
+To configure calendar type please go to the the calendar configuration page Site administration > Appearance > Calendar  
 and select 'Ummul Qora' as a default calendar from 'calendartype' field.
 
 ## Note
 
-If you set any preferred calendar then you also need to change the calender to Ummul Qora from Proflie > Preferences > Calendar preferences 
-and preferred calendar
+If you set any preferred calendar then you also need to change the calender to Ummul Qora from Proflie > Preferences > Calendar preferences and preferred calendar
  
 
 
 
 
-The Hijri calendar (sometimes referred to as the Islamic calendar) is a lunar calendar used 
-in Islamic countries or by muslim communities in non-Islamic countries.
-
-This calendar type uses Ummul Qora to calculate dates, depending on the 
-[Hijri class](https://github.com/hubaishan/HijriDateLib/blob/master/hijri.class.php) 
-made by [hubaishan](https://github.com/hubaishan) with some tiny changes to the Hijri class
- to fit the moodle calendar type requirements.
 
 
 ## Release logs
