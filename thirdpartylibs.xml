@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+    <library>
+        <location>classes/hijri</location>
+        <name>Hijri</name>
+        <version>?</version>
+        <license>GPL-2</license>
+        <licenseversion>2.3.0</licenseversion>
+    </library>
+</libraries>
