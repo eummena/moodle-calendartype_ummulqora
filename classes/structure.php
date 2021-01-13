@@ -19,7 +19,7 @@
  *
  * @package calendartype_ummulqora
  *
- * @copyright 2019 onwards Eummena {@link http://eummena.org}
+ * @copyright 2020 onwards Eummena {@link http://eummena.org}
  * @copyright based on work by Foodle Group {@link http://foodle.org}
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

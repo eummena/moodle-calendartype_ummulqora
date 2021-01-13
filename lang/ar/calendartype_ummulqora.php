@@ -20,7 +20,7 @@
  * Strings for component 'calendartype_ummulqora', language 'ar'.
  *
  * @package calendartype_ummulqora
- * @copyright 2019 onwards Eummena {@link http://eummena.org}
+ * @copyright 2020 onwards Eummena {@link http://eummena.org}
  * @author Shareef Morad, Azmat Ullah
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

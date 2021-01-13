@@ -18,14 +18,14 @@
  * A "calendartype" for Moodle that will show the calendar dates as per Ummul Qora calculations.
  *
  * @package calendartype_ummulqora
- * @copyright 2019 onwards Eummena {@link http://eummena.org}
+ * @copyright 2020 onwards Eummena {@link http://eummena.org}
  * @author Shareef Morad, Azmat Ullah
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2019090800;
+$plugin->version = 2020011301;
 $plugin->requires = 2013111801;
 $plugin->component = 'calendartype_ummulqora';
 $plugin->release = 'v3.5';
