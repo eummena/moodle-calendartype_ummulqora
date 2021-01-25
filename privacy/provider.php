@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for format_govxsections.
+ * Privacy Subsystem implementation for  calendartype_ummulqora;
  *
  * @package    calendartype_ummulqora
- * @copyright 2020 onwards Eummena {@link http://eummena.org}
+ * @copyright 2020 onwards  {@link http://eummena.org}
  * @author Shareef Morad, Azmat Ullah
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Privacy Subsystem for calendartype_ummulqora implementing null_provider.
  *
- * @copyright 2020 onwards Eummena {@link http://eummena.org}
+ * @copyright 2020 onwards  {@link http://eummena.org}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {

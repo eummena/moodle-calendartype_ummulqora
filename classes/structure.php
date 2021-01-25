@@ -170,34 +170,34 @@ class structure extends type_base {
      */
     public function get_weekdays() {
         return array(
-                0 => array(
-                        'shortname' => get_string('wday0', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday0', 'calendartype_ummulqora')
-                ),
-                1 => array(
-                        'shortname' => get_string('wday1', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday1', 'calendartype_ummulqora')
-                ),
-                2 => array(
-                        'shortname' => get_string('wday2', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday2', 'calendartype_ummulqora')
-                ),
-                3 => array(
-                        'shortname' => get_string('wday3', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday3', 'calendartype_ummulqora')
-                ),
-                4 => array(
-                        'shortname' => get_string('wday4', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday4', 'calendartype_ummulqora')
-                ),
-                5 => array(
-                        'shortname' => get_string('wday5', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday5', 'calendartype_ummulqora')
-                ),
-                6 => array(
-                        'shortname' => get_string('wday6', 'calendartype_ummulqora'),
-                        'fullname' => get_string('weekday6', 'calendartype_ummulqora')
-                ),
+            0 => array(
+                'shortname' => get_string('wday0', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday0', 'calendartype_ummulqora')
+            ),
+            1 => array(
+                'shortname' => get_string('wday1', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday1', 'calendartype_ummulqora')
+            ),
+            2 => array(
+                'shortname' => get_string('wday2', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday2', 'calendartype_ummulqora')
+            ),
+            3 => array(
+                'shortname' => get_string('wday3', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday3', 'calendartype_ummulqora')
+            ),
+            4 => array(
+                'shortname' => get_string('wday4', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday4', 'calendartype_ummulqora')
+            ),
+            5 => array(
+                'shortname' => get_string('wday5', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday5', 'calendartype_ummulqora')
+            ),
+            6 => array(
+                'shortname' => get_string('wday6', 'calendartype_ummulqora'),
+                'fullname' => get_string('weekday6', 'calendartype_ummulqora')
+            ),
         );
     }
 
@@ -331,31 +331,31 @@ class structure extends type_base {
         $hdate = $this->timestamp_to_date_array($time, $timezone);
         // This is not sufficient code, change it. But it works correctly.
         $format = str_replace(array(
-                '%a',
-                '%A',
-                '%d',
-                '%b',
-                '%B',
-                '%h',
-                '%m',
-                '%C',
-                '%y',
-                '%Y',
-                '%p',
-                '%P'
+            '%a',
+            '%A',
+            '%d',
+            '%b',
+            '%B',
+            '%h',
+            '%m',
+            '%C',
+            '%y',
+            '%Y',
+            '%p',
+            '%P'
         ), array(
-                $hdate['weekday'],                                                  // For %a
-                $hdate['weekday'],                                                  // %A
-                (($hdate['mday'] < 10 && !$fixday) ? '0' : '') . $hdate['mday'],    // %d
-                $hdate['month'],                                                    // %b
-                $hdate['month'],                                                    // %B
-                $hdate['month'],                                                    // %h
-                ($hdate['mon'] < 10 ? '0' : '') . $hdate['mon'],                    // %m
-                floor($hdate['year'] / 100),                                        // %C
-                $hdate['year'] % 100,                                               // %y
-                $hdate['year'],                                                     // %Y
-                ($hdate['hours'] < 12 ? $amcapsstring : $pmcapsstring),             // %p
-                ($hdate['hours'] < 12 ? $amstring : $pmstring)                      // and %P.
+            $hdate['weekday'],                                                  // For %a
+            $hdate['weekday'],                                                  // %A
+            (($hdate['mday'] < 10 && !$fixday) ? '0' : '') . $hdate['mday'],    // %d
+            $hdate['month'],                                                    // %b
+            $hdate['month'],                                                    // %B
+            $hdate['month'],                                                    // %h
+            ($hdate['mon'] < 10 ? '0' : '') . $hdate['mon'],                    // %m
+            floor($hdate['year'] / 100),                                        // %C
+            $hdate['year'] % 100,                                               // %y
+            $hdate['year'],                                                     // %Y
+            ($hdate['hours'] < 12 ? $amcapsstring : $pmcapsstring),             // %p
+            ($hdate['hours'] < 12 ? $amstring : $pmstring)                      // and %P.
         ), $format);
 
         $gregoriancalendar = type_factory::get_calendar_instance('gregorian');
