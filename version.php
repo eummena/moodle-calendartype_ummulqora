@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2020011301;
+$plugin->version = 2021012501;
 $plugin->requires = 2013111801;
 $plugin->component = 'calendartype_ummulqora';
 $plugin->release = 'v3.5';
